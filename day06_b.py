@@ -1,4 +1,4 @@
-with open("day6_input.txt") as f:
+with open("day06_input.txt") as f:
     my_string = f.read()
 
 n = 14

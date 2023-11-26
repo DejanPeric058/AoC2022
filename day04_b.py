@@ -1,7 +1,7 @@
 
 my_sum = 0
 
-with open("day4_input.txt", encoding='utf-8') as f:
+with open("day04_input.txt", encoding='utf-8') as f:
     for i in range(1000):
         x = f.readline()
         x = x[:-1]

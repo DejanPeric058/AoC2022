@@ -1,5 +1,5 @@
 
-with open("day5_input.txt", encoding='utf-8') as f:
+with open("day05_input.txt", encoding='utf-8') as f:
     sez = f.readlines()
 
 my_dict = {}

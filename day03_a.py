@@ -13,7 +13,7 @@ def find_common_letter(my_string):
 
 my_sum = 0
 
-with open("day3_input.txt", encoding="utf-8") as f:
+with open("day03_input.txt", encoding="utf-8") as f:
     for i in range(300):
         x = f.readline()
         x = x[:-1]

@@ -22,7 +22,7 @@ second = ["X", "Y", "Z"]
 
 my_sum = 0
 
-with open("day2_input.txt", encoding="utf-8") as f:
+with open("day02_input.txt", encoding="utf-8") as f:
     for i in range(2500):
         x = f.readline()
         a, b = x.split(' ')
