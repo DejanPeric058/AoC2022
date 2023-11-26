@@ -7,7 +7,7 @@ count_trees = 0
 tree_columns = input_data.split('\n')
 tree_map = np.array([[int(k) for k in row] for row in tree_columns])
 size = len(tree_map) - 1
-print(size)
+
 for i, row in enumerate(tree_map):
     for j, height in enumerate(row):
         if i == 0 or j == 0 or i == size or j == size:

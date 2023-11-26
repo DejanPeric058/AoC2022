@@ -26,7 +26,6 @@ for x in sez[10:]:
 
 solution = ''
 for y in my_dict.values():
-    print(y)
     solution += y[-1]
 
 print(solution)
